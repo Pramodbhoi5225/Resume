@@ -1,0 +1,215 @@
+.header {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  
+  
+  
+  }
+  .headersection{
+    height: 600px;
+    width: 100%;
+    background: url("blob:https://web.whatsapp.com/fb3e8711-9a9d-4245-9ccc-b19eb81e73ed");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin-left: 30%; */
+    float: left;
+    width: auto;
+
+   
+  
+  
+  }
+  
+  .head2 {
+    background: -webkit-image-set("https://i.gifer.com/Vo2o.gif");
+    -webkit-background-clip: text;
+    background-position: 50%;
+    font-size: 50px;
+    padding-top: 10px;
+    -webkit-text-fill-color: transparent;
+    color: #000;
+  }
+  .head3 {
+    background: -webkit-image-set(
+      "https://cdn.dribbble.com/users/8156988/screenshots/16260376/media/d72c6c8fe5a5cded14961afbe4590e2d.gif"
+    );
+    -webkit-background-clip: text;
+    background-position: 50%;
+    font-size: 40px;
+    -webkit-text-fill-color: transparent;
+    color: #000;
+  }
+  
+  .h22 {
+    color: white;
+  }
+  .headerbtn {
+    background: transparent;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid red;
+    color: #000;
+    padding: 10px;
+    
+  }
+  .headerbtn a{
+    color: aqua;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  
+  .innerdiv {
+    background-color: #f0f8ff;
+    display: flex;
+    gap: 50px;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 0px 80px 0px;
+  }
+  
+  .downloadresume {
+    background-color: gray;
+    border-radius: 10px;
+    border-color: white;
+  }
+  .downloadresume a {
+    text-decoration: none;
+    color: white;
+  }
+  .sec {
+    margin-top: 100px;
+    text-align: center;
+    
+  }
+  .secsec {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .secsec .secdiv {
+    background: gray;
+    border: 1px solid #000;
+    color: #fff;
+    height: 70px;
+    justify-content: center;
+    width: 350px;
+    font-size: 50px;
+  }
+  ruby rt {
+    text-align: center;
+  }
+  
+  .footer {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footersec {
+    align-items: center;
+    color: #f5f5f5;
+    display: flex;
+    height: auto;
+    gap: 30px;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+  }
+  
+  .footdiv2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .getintouch {
+    font-size: 30px;
+  }
+  .footdiv2 button {
+    background-color: gray;
+    border-radius: 10px;
+    border: none;
+  }
+  .footdiv2 button a {
+    color: white;
+    text-decoration: none;
+  }
+  .footerdiv3 {
+    gap: 30px;
+  }
+  .articon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+
+  
+  
+  @media (min-width : 250px) and (max-width: 650px){
+  
+    .headersection{
+      margin: 0px;
+    }
+  
+    .innerdiv {
+      margin-top: -45px;
+      padding: 10px 20px 10px 20px;
+      flex-direction: column;    
+      gap: 20px;
+      color: black;
+      align-items: center;
+  
+      height: auto;
+      
+    }
+    
+    .footer {
+      height: auto;
+      width: 100%;
+    }
+    .footersec {
+      color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      gap: 30px;
+      margin-top: 100px;
+      height: 100%;
+      width: 100%;
+      background-color: #000;
+    }
+    
+    .footdiv2 {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .getintouch {
+      font-size: 30px;
+    }
+    .footdiv2 button {
+      background-color: gray;
+      border-radius: 10px;
+      border: none;
+    }
+    
+    .footerdiv3{
+    }
+  
+    .articon{
+      height: 50px;
+      color: white;
+  
+    }
+  
+    .ficon i{
+      color: white;
+      font-size: 30px;
+    }
+  
+  }
